@@ -3,52 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clothing Color Combinations</title>
+    <title>Clothing Color Combinations | Fashion Palette Helper</title>
+    <meta name="description" content="Discover professional clothing color combinations. Our guide helps you match tops, bottoms, and shoes perfectly using color theory.">
+    <meta name="keywords" content="fashion, color palette, clothing combinations, style guide, outfit ideas">
     <meta name="google-adsense-account" content="ca-pub-2899417061148011">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2899417061148011"
      crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Clothing Color Palette Helper</h1>
-        <p>Find the perfect color combinations for your outfits.</p>
-        <button id="theme-toggle">Switch to Dark Mode</button>
+    <nav class="main-nav">
+        <div class="nav-container">
+            <span class="logo">PaletteHelper</span>
+            <ul class="nav-links">
+                <li><a href="#palettes">Palettes</a></li>
+                <li><a href="#guide">Style Guide</a></li>
+                <li><a href="#about">About</a></li>
+                <li><button id="theme-toggle">Theme</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Master Your Outfit Colors</h1>
+        <p>Expertly curated color combinations to elevate your personal style. Find the perfect balance for every occasion.</p>
     </header>
-    <main class="palette-container">
-        <section class="color-palette">
-            <h2>Brown</h2>
-            <div class="outfit">
-                <div class="clothing-item" style="background-color: #F5F5DC;"><span class="label">Top</span></div>
-                <div class="clothing-item" style="background-color: #A52A2A;"><span class="label">Bottom</span></div>
-                <div class="clothing-item" style="background-color: #FFFDD0;"><span class="label">Shoes</span></div>
+
+    <main class="content-wrapper">
+        <section id="palettes" class="palette-grid">
+            <h2 class="section-title">Curated Color Palettes</h2>
+            
+            <article class="color-palette">
+                <div class="palette-header">
+                    <h3>The Earthy Brown</h3>
+                    <p class="description">A warm, approachable combination perfect for autumn and professional settings. Brown conveys reliability and comfort.</p>
+                </div>
+                <div class="outfit">
+                    <div class="clothing-item" style="background-color: #F5F5DC;"><span class="label">Beige Top</span></div>
+                    <div class="clothing-item" style="background-color: #A52A2A;"><span class="label">Brown Bottom</span></div>
+                    <div class="clothing-item" style="background-color: #FFFDD0;"><span class="label">Cream Shoes</span></div>
+                </div>
+                <div class="palette-footer">
+                    <p><strong>Occasion:</strong> Business casual, Weekend brunch.</p>
+                </div>
+            </article>
+
+            <article class="color-palette">
+                <div class="palette-header">
+                    <h3>Classic Monochrome Black</h3>
+                    <p class="description">The ultimate choice for elegance and authority. Black with grey accents provides a sophisticated, modern look.</p>
+                </div>
+                <div class="outfit">
+                    <div class="clothing-item" style="background-color: #FFFFFF; border: 1px solid #eee;"><span class="label" style="color: #333;">White Top</span></div>
+                    <div class="clothing-item" style="background-color: #000000;"><span class="label">Black Bottom</span></div>
+                    <div class="clothing-item" style="background-color: #808080;"><span class="label">Grey Shoes</span></div>
+                </div>
+                <div class="palette-footer">
+                    <p><strong>Occasion:</strong> Formal events, Evening dinners.</p>
+                </div>
+            </article>
+
+            <article class="color-palette">
+                <div class="palette-header">
+                    <h3>The Nautical Navy</h3>
+                    <p class="description">Navy and light blue create a trustworthy and timeless vibe. It's a versatile alternative to black.</p>
+                </div>
+                <div class="outfit">
+                    <div class="clothing-item" style="background-color: #ADD8E6;"><span class="label">Light Blue Top</span></div>
+                    <div class="clothing-item" style="background-color: #000080;"><span class="label">Navy Bottom</span></div>
+                    <div class="clothing-item" style="background-color: #FFFFFF; border: 1px solid #eee;"><span class="label" style="color: #333;">White Shoes</span></div>
+                </div>
+                <div class="palette-footer">
+                    <p><strong>Occasion:</strong> Work, Interviews, Daily wear.</p>
+                </div>
+            </article>
+
+            <article class="color-palette">
+                <div class="palette-header">
+                    <h3>Pure Minimalism White</h3>
+                    <p class="description">Clean, crisp, and refreshing. Combining different shades of white and light grey creates a high-end minimalist aesthetic.</p>
+                </div>
+                <div class="outfit">
+                    <div class="clothing-item" style="background-color: #FFFFFF; border: 1px solid #eee;"><span class="label" style="color: #333;">White Top</span></div>
+                    <div class="clothing-item" style="background-color: #D3D3D3;"><span class="label">Light Grey Bottom</span></div>
+                    <div class="clothing-item" style="background-color: #C0C0C0;"><span class="label">Silver Shoes</span></div>
+                </div>
+                <div class="palette-footer">
+                    <p><strong>Occasion:</strong> Summer outings, Creative workplaces.</p>
+                </div>
+            </article>
+        </section>
+
+        <section id="guide" class="info-section">
+            <h2 class="section-title">Style Guide & Tips</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h4>The Rule of Three</h4>
+                    <p>A great outfit typically uses no more than three main colors. This keeps the look cohesive and prevents visual clutter.</p>
+                </div>
+                <div class="info-card">
+                    <h4>Understand Undertones</h4>
+                    <p>Match cool colors (blues, greens) with silver accessories, and warm colors (reds, browns) with gold to enhance your natural complexion.</p>
+                </div>
+                <div class="info-card">
+                    <h4>Neutral Foundation</h4>
+                    <p>Build your wardrobe around neutrals like Navy, Black, and Beige. They serve as the perfect base for any outfit.</p>
+                </div>
             </div>
         </section>
-        <section class="color-palette">
-            <h2>Black</h2>
-            <div class="outfit">
-                <div class="clothing-item" style="background-color: #FFFFFF; border: 1px solid #eee;"><span class="label" style="color: #333;">Top</span></div>
-                <div class="clothing-item" style="background-color: #000000;"><span class="label">Bottom</span></div>
-                <div class="clothing-item" style="background-color: #808080;"><span class="label">Shoes</span></div>
-            </div>
-        </section>
-        <section class="color-palette">
-            <h2>Navy</h2>
-            <div class="outfit">
-                <div class="clothing-item" style="background-color: #ADD8E6;"><span class="label">Top</span></div>
-                <div class="clothing-item" style="background-color: #000080;"><span class="label">Bottom</span></div>
-                <div class="clothing-item" style="background-color: #FFFFFF; border: 1px solid #eee;"><span class="label" style="color: #333;">Shoes</span></div>
-            </div>
-        </section>
-        <section class="color-palette">
-            <h2>White</h2>
-            <div class="outfit">
-                <div class="clothing-item" style="background-color: #FFFFFF; border: 1px solid #eee;"><span class="label" style="color: #333;">Top</span></div>
-                <div class="clothing-item" style="background-color: #D3D3D3;"><span class="label">Bottom</span></div>
-                <div class="clothing-item" style="background-color: #C0C0C0;"><span class="label">Shoes</span></div>
+
+        <section id="about" class="info-section">
+            <h2 class="section-title">About the Project</h2>
+            <div class="about-content">
+                <p>PaletteHelper was created to simplify the daily decision-making process of "what to wear." By applying core color theory principles to fashion, we provide users with scientifically backed color combinations that ensure a balanced and stylish appearance.</p>
+                <p>Our mission is to empower individuals to feel confident in their clothing choices through easy-to-use visual tools.</p>
             </div>
         </section>
     </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+            <p>&copy; 2026 Clothing Color Palette Helper. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Simple Privacy Policy Section for AdSense Compliance -->
+    <section id="privacy" class="info-section" style="font-size: 0.9em; border-top: 1px solid #eee; margin-top: 50px;">
+        <h2 class="section-title">Privacy Policy</h2>
+        <p>This website uses Google AdSense to display advertisements. Google uses cookies to serve ads based on a user's prior visits to this website or other websites. Google's use of advertising cookies enables it and its partners to serve ads to users based on their visit to your sites and/or other sites on the Internet.</p>
+        <p>Users may opt out of personalized advertising by visiting Ads Settings or by visiting <a href="https://www.aboutads.info" target="_blank">www.aboutads.info</a>.</p>
+    </section>
+
     <script src="main.js"></script>
 </body>
 </html>
