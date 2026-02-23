@@ -1,14 +1,50 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Color Combinations</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+    <header>
+        <h1>Clothing Color Palette Helper</h1>
+        <p>Find the perfect color combinations for your outfits.</p>
+    </header>
+    <main class="palette-container">
+        <section class="color-palette">
+            <h2>Brown</h2>
+            <div class="outfit">
+                <div class="clothing-item" style="background-color: #F5F5DC;"><span class="label">Top</span></div>
+                <div class="clothing-item" style="background-color: #A52A2A;"><span class="label">Bottom</span></div>
+                <div class="clothing-item" style="background-color: #FFFDD0;"><span class="label">Shoes</span></div>
+            </div>
+        </section>
+        <section class="color-palette">
+            <h2>Black</h2>
+            <div class="outfit">
+                <div class="clothing-item" style="background-color: #FFFFFF; border: 1px solid #eee;"><span class="label" style="color: #333;">Top</span></div>
+                <div class="clothing-item" style="background-color: #000000;"><span class="label">Bottom</span></div>
+                <div class="clothing-item" style="background-color: #808080;"><span class="label">Shoes</span></div>
+            </div>
+        </section>
+        <section class="color-palette">
+            <h2>Navy</h2>
+            <div class="outfit">
+                <div class="clothing-item" style="background-color: #ADD8E6;"><span class="label">Top</span></div>
+                <div class="clothing-item" style="background-color: #000080;"><span class="label">Bottom</span></div>
+                <div class="clothing-item" style="background-color: #FFFFFF; border: 1px solid #eee;"><span class="label" style="color: #333;">Shoes</span></div>
+            </div>
+        </section>
+        <section class="color-palette">
+            <h2>White</h2>
+            <div class="outfit">
+                <div class="clothing-item" style="background-color: #FFFFFF; border: 1px solid #eee;"><span class="label" style="color: #333;">Top</span></div>
+                <div class="clothing-item" style="background-color: #D3D3D3;"><span class="label">Bottom</span></div>
+                <div class="clothing-item" style="background-color: #C0C0C0;"><span class="label">Shoes</span></div>
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
 </body>
 </html>
